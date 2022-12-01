@@ -10,7 +10,7 @@ function App() {
 
 
   const fileterItem = (filter)=>{
-    if(filter=='all'){
+    if(filter==='all'){
       setMenuItems(items);
       return;
     }
